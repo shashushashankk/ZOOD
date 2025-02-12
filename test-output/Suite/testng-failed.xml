@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.zoodel.generic_android.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Login.UserAbleToLoginToZoodApp">
+        <methods>
+          <include name="closeZoodApp"/>
+          <include name="userAbleToLoginToZood"/>
+          <include name="loginToTheApplication"/>
+          <include name="openZoodAndroidApp"/>
+          <include name="logoutFromTheApplication"/>
+        </methods>
+      </class> <!-- Login.UserAbleToLoginToZoodApp -->
+      <class name="Login.UserAbleToLoginToZoodApp2">
+        <methods>
+          <include name="userAbleToLoginToZood"/>
+          <include name="closeZoodApp"/>
+          <include name="loginToTheApplication"/>
+          <include name="openZoodAndroidApp"/>
+          <include name="logoutFromTheApplication"/>
+        </methods>
+      </class> <!-- Login.UserAbleToLoginToZoodApp2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

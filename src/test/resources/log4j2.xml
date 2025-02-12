@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="TRACE">
+    <properties>
+        <Property name="basePath">./logs</Property>
+    </properties>
+
+    <Appenders>
+        <Console name="CONSOLE">
+            <PatternLayout pattern="%d{dd-MM-yyyy hh:mm:ss.SSSS} [%t] %-5level %logger{36} - %m%n"/>
+        </Console>
+        <File  name="File" fileName="${basePath}/automation.log">
+            <PatternLayout pattern="%d{dd-MM-yyyy hh:mm:ss.SSSS} [%t] %-5level %logger{36} - %m%n"/>
+            <SizeBasedTriggeringPolicy size="5000"/>
+        </File >
+    </Appenders>
+
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="CONSOLE" level="debug"/>
+            <AppenderRef ref="File" level="debug" />
+        </Root>
+        <Logger name="org.example" level="debug" additivity="false">
+            <AppenderRef ref="File" level="debug"/>
+        </Logger>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <listeners>
+        <listener class-name="com.zoodel.generic_android.Listners"></listener>
+    </listeners>
+    <test thread-count="15" parallel="methods" name="Test">
+        <classes>
+            <!--      <class name="Login.UserAbleToLoginToZoodApp2"/>-->
+            <class name="Login.UserAbleToLoginToZoodApp"/>
+            <class name="Login.UserAbleToLoginToZoodApp3"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
