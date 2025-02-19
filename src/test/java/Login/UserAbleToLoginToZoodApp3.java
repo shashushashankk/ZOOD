@@ -1,10 +1,5 @@
 package Login;
 
-import com.zoodel.generic_android.BaseClassForloginUser;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;

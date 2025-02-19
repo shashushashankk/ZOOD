@@ -1,18 +1,14 @@
 package Login;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.zoodel.generic_android.BaseClassForloginUser;
-
-@Listeners(com.zoodel.generic_android.Listners.class)
-public class UserAbleToLoginToZoodApp extends BaseClassForloginUser {
+@Listeners(com.zoodel.generic_android.ExtentReportListner.class)
+public class TestDirectoryPath {
 	@Test
-	public void userAbleToLoginToZood() throws InterruptedException {
+	public void main1() {
 		try {
 			System.out.println("Current os name: " + System.getProperty("os.name"));
 			System.out.println("Current os Version: " + System.getProperty("os.version"));
