@@ -31,7 +31,7 @@ public class Listners extends GlobalVariable implements ITestListener {
 		// TODO Auto-generated method stub
 		Reporter.log("Execution failed at " + baseUtility.dateAndTime.convertMIliSecondToDate(result.getStartMillis()),
 				true);
-		baseUtility.driverMethods.getBrowserScreenshot(result.getName());
+		baseUtility.driverMethods.getBrowserScreenshot(result.getName(),androidDriver);
 		if(result.getMethod().getRetryAnalyzerClass()==null) {
 			result.getMethod().setRetryAnalyzerClass(com.zoodel.generic_android.ReExecuteFailledTestCases.class);
 		}
@@ -42,7 +42,7 @@ public class Listners extends GlobalVariable implements ITestListener {
 		// TODO Auto-generated method stub
 		Reporter.log("Execution skipped at " + baseUtility.dateAndTime.convertMIliSecondToDate(result.getStartMillis()),
 				true);
-		baseUtility.driverMethods.getBrowserScreenshot(result.getName());
+		baseUtility.driverMethods.getBrowserScreenshot(result.getName(),androidDriver);
 	}
 
 	@Override

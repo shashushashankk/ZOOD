@@ -5,6 +5,7 @@ import java.io.File;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 
 import com.zoodel.generic_android.GlobalVariable;
@@ -18,7 +19,7 @@ public class DriverMethods extends GlobalVariable {
 		this.driver = driver;
 	}
 
-	public void getBrowserScreenshot(String name) {
+	public String getBrowserScreenshot(String name, WebDriver driver) {
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
 		File temp = screenshot.getScreenshotAs(OutputType.FILE);
 		Reporter.log("Screenshot temp path is " + temp);
@@ -30,6 +31,7 @@ public class DriverMethods extends GlobalVariable {
 		} catch (Exception e) {
 			Reporter.log(e.getLocalizedMessage(), true);
 		}
+		return  destination.getAbsolutePath();
 	}
 
 	public boolean hideSoftKeyBoard() {

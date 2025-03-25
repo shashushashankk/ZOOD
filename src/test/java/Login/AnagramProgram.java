@@ -7,7 +7,12 @@ import java.util.LinkedList;
 public class AnagramProgram {
     public static void main(String[] args) {
         String[] arr = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        seperateAnagram(arr);
+        String[][] arr1 = {{"eat", "tea"}, {"tan", "ate", "nat", "bat"}};
+        String[][][] arr2 = {{{"eat", "tea"}}, {{"tan", "ate", "nat", "bat"}}};
+        String[][][][] arr3 = {{{{"eat", "tea"},}, {{"tan", "ate", "nat", "bat"}}}};
+
+        System.out.println(Arrays.toString(arr1[1]));
+//        seperateAnagram(arr);
     }
 
     public static void seperateAnagram(String[] array) {
