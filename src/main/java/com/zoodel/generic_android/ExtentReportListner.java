@@ -6,9 +6,9 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -26,15 +26,17 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
     @Override
     public void onFinish(ITestContext context) {
 
+        log = LogManager.getLogger(this.getClass());
         ITestListener.super.onFinish(context);
         extentReports.flush();
     }
 
     @Override
     public void onStart(ITestContext context) {
+        log = LogManager.getLogger(this.getClass());
         ITestListener.super.onStart(context);
-        String reportName = "Automation TEst Report " + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM-yyyy hhmmss") + ".html";
-        System.out.println("Report path is " + reportName);
+        String reportName = "Automation Test Report " + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM-yyyy hhmmss") + ".html";
+//        log.info("Report path is " + reportName,true);
         extentSparkReporter = new ExtentSparkReporter("./logs/" + reportName);
         extentSparkReporter.config().setDocumentTitle("Automation Document Title");
         extentSparkReporter.config().setReportName("Automation Report Name");
@@ -48,7 +50,7 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
         if (groupsName != null) {
             extentReports.setSystemInfo("Groups", groupsName.toString());
         }
-//        context.
+
     }
 
     @Override
@@ -66,8 +68,7 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
         ITestListener.super.onTestSkipped(result);
         extentTest = extentReports.createTest(result.getTestClass().getName());
         extentTest.log(Status.SKIP, result.getName() + " is skipped");
-        WebDriver webdriver = (WebDriver) result.getAttribute("driver");
-        TakesScreenshot sc = (TakesScreenshot) webdriver;
+        TakesScreenshot sc = (TakesScreenshot) androidDriver;
         File temp = sc.getScreenshotAs(OutputType.FILE);
         File dest = new File("C:\\Users\\ER\\eclipse-workspace\\ZOOD\\logs\\" + "Skip " + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM-yyyy hh-mm-ss") + ".jpg");
         try {
@@ -85,9 +86,8 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
         ITestListener.super.onTestFailure(result);
         extentTest = extentReports.createTest(result.getTestClass().getName());
         extentTest.log(Status.FAIL, result.getName() + " is failed to execute");
-        WebDriver webdriver = (WebDriver) result.getAttribute("driver");
-        System.out.println("Webdriver refference is "+webdriver);
-        TakesScreenshot sc = (TakesScreenshot) webdriver;
+
+        TakesScreenshot sc = (TakesScreenshot) androidDriver;
         File temp = sc.getScreenshotAs(OutputType.FILE);
         File dest = new File("./logs/" + "Succ_" + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM_hh-mm-ss") + ".jpg");
         try {
@@ -106,9 +106,8 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
         extentTest.log(Status.PASS, result.getName() + " is successfully executed");
         extentTest.log(Status.PASS, result.getName() + " another message");
         System.out.println("Entered success listner method");
-        WebDriver webdriver = (WebDriver) result.getAttribute("driver");
         System.out.println("Initialized driver");
-        TakesScreenshot sc = (TakesScreenshot) webdriver;
+        TakesScreenshot sc = (TakesScreenshot) androidDriver;
         System.out.println("Took Screenshot");
         File temp = sc.getScreenshotAs(OutputType.FILE);
         File dest = new File("./logs/" + "Succ_" + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM_hh-mm-ss") + ".jpg");

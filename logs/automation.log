@@ -1,191 +1,89 @@
-Succcessfully logged in to the application
-10-02-2025 03:51:03.0643 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 03:52:55.0634 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 05:26:24.0481 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 05:27:38.0903 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 05:28:23.0736 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 05:29:59.0522 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 05:32:21.0873 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 05:38:35.0293 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 05:39:09.0933 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Succcessfully logged in to the application
-10-02-2025 06:24:03.0626 [main] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-10-02-2025 06:24:03.0630 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-10-02-2025 06:24:03.0631 [main] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-10-02-2025 06:24:03.0631 [main] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-10-02-2025 06:24:03.0631 [main] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-10-02-2025 06:24:03.0632 [main] TRACE Login.UserAbleToLoginToZoodApp2 - trace log
-10-02-2025 06:34:08.0543 [main] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-10-02-2025 06:34:08.0548 [main] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-10-02-2025 06:34:08.0548 [main] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-10-02-2025 06:34:08.0548 [main] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-10-02-2025 06:34:08.0549 [main] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:30:42.0184 [TestNG-test-Test-1] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:30:42.0184 [TestNG-test-Test-5] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:30:42.0184 [TestNG-test-Test-4] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:30:42.0184 [TestNG-test-Test-2] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:30:42.0184 [TestNG-test-Test-3] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:30:42.0189 [TestNG-test-Test-1] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:30:42.0189 [TestNG-test-Test-2] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:30:42.0189 [TestNG-test-Test-4] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:30:42.0189 [TestNG-test-Test-3] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:30:42.0189 [TestNG-test-Test-5] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:30:42.0190 [TestNG-test-Test-4] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:30:42.0190 [TestNG-test-Test-2] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:30:42.0190 [TestNG-test-Test-3] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:30:42.0191 [TestNG-test-Test-4] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:30:42.0191 [TestNG-test-Test-2] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:30:42.0191 [TestNG-test-Test-2] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:30:42.0191 [TestNG-test-Test-3] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:30:42.0191 [TestNG-test-Test-3] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:30:42.0190 [TestNG-test-Test-5] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:30:42.0190 [TestNG-test-Test-1] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:30:42.0192 [TestNG-test-Test-5] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:30:42.0192 [TestNG-test-Test-1] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:30:42.0193 [TestNG-test-Test-5] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:30:42.0191 [TestNG-test-Test-4] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:30:42.0193 [TestNG-test-Test-1] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:08.0476 [TestNG-test-Test-2] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:08.0476 [TestNG-test-Test-4] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:08.0477 [TestNG-test-Test-4] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:08.0477 [TestNG-test-Test-2] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:08.0478 [TestNG-test-Test-4] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:08.0478 [TestNG-test-Test-2] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:08.0478 [TestNG-test-Test-4] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:08.0479 [TestNG-test-Test-4] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:08.0479 [TestNG-test-Test-2] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:08.0479 [TestNG-test-Test-2] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:10.0351 [TestNG-test-Test-5] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:10.0351 [TestNG-test-Test-5] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:10.0351 [TestNG-test-Test-5] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:10.0351 [TestNG-test-Test-5] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:10.0353 [TestNG-test-Test-5] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:12.0714 [TestNG-test-Test-1] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:12.0715 [TestNG-test-Test-1] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:12.0716 [TestNG-test-Test-1] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:12.0717 [TestNG-test-Test-1] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:12.0717 [TestNG-test-Test-1] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:13.0132 [TestNG-test-Test-3] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:13.0132 [TestNG-test-Test-3] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:13.0133 [TestNG-test-Test-3] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:13.0133 [TestNG-test-Test-3] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:13.0133 [TestNG-test-Test-3] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:22.0911 [TestNG-test-Test-4] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:22.0912 [TestNG-test-Test-4] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:22.0913 [TestNG-test-Test-4] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:22.0913 [TestNG-test-Test-4] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:22.0913 [TestNG-test-Test-4] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:25.0057 [TestNG-test-Test-2] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:25.0058 [TestNG-test-Test-2] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:25.0059 [TestNG-test-Test-2] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:25.0060 [TestNG-test-Test-2] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:25.0061 [TestNG-test-Test-2] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:29.0824 [TestNG-test-Test-5] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:29.0825 [TestNG-test-Test-5] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:29.0825 [TestNG-test-Test-5] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:29.0825 [TestNG-test-Test-5] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:29.0826 [TestNG-test-Test-5] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:32.0531 [TestNG-test-Test-1] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:32.0533 [TestNG-test-Test-1] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:32.0534 [TestNG-test-Test-1] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:32.0536 [TestNG-test-Test-1] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:32.0537 [TestNG-test-Test-1] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:35.0167 [TestNG-test-Test-3] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:35.0168 [TestNG-test-Test-3] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:35.0168 [TestNG-test-Test-3] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:35.0168 [TestNG-test-Test-3] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:35.0168 [TestNG-test-Test-3] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:41.0422 [TestNG-test-Test-4] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:41.0422 [TestNG-test-Test-4] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:41.0422 [TestNG-test-Test-4] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:41.0422 [TestNG-test-Test-4] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:41.0423 [TestNG-test-Test-4] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:31:43.0917 [TestNG-test-Test-2] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:31:43.0918 [TestNG-test-Test-2] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:31:43.0919 [TestNG-test-Test-2] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:31:43.0919 [TestNG-test-Test-2] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:31:43.0920 [TestNG-test-Test-2] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0671 [TestNG-test-Test-4] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-11] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0671 [TestNG-test-Test-6] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-15] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-9] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-5] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-15] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-12] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0671 [TestNG-test-Test-1] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-15] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-12] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-14] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-1] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-11] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-8] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-11] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-14] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-13] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0671 [TestNG-test-Test-10] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-13] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-3] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-2] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-3] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-14] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-12] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-14] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-8] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-10] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-12] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-13] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-1] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-8] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-12] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-13] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-1] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-11] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-4] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-15] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-4] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-15] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-4] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-8] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-4] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-8] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-11] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0681 [TestNG-test-Test-13] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-5] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-6] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-5] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-6] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-5] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0672 [TestNG-test-Test-7] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-5] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0677 [TestNG-test-Test-9] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-7] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-9] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-7] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0683 [TestNG-test-Test-7] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0683 [TestNG-test-Test-7] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0680 [TestNG-test-Test-1] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0682 [TestNG-test-Test-6] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0683 [TestNG-test-Test-6] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-14] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-10] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-2] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:10.0684 [TestNG-test-Test-10] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0684 [TestNG-test-Test-10] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0678 [TestNG-test-Test-3] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0685 [TestNG-test-Test-3] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0685 [TestNG-test-Test-3] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0684 [TestNG-test-Test-2] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:10.0683 [TestNG-test-Test-9] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0685 [TestNG-test-Test-2] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:10.0686 [TestNG-test-Test-9] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:10.0686 [TestNG-test-Test-2] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:29.0720 [TestNG-test-Test-7] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:29.0721 [TestNG-test-Test-7] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:29.0721 [TestNG-test-Test-7] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:29.0721 [TestNG-test-Test-7] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:29.0721 [TestNG-test-Test-7] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
-11-02-2025 09:33:29.0733 [TestNG-test-Test-4] WARN  Login.UserAbleToLoginToZoodApp2 - Warn log
-11-02-2025 09:33:29.0735 [TestNG-test-Test-4] INFO  Login.UserAbleToLoginToZoodApp2 - Info log
-11-02-2025 09:33:29.0736 [TestNG-test-Test-4] ERROR Login.UserAbleToLoginToZoodApp2 - error log
-11-02-2025 09:33:29.0736 [TestNG-test-Test-4] FATAL Login.UserAbleToLoginToZoodApp2 - fatal log
-11-02-2025 09:33:29.0736 [TestNG-test-Test-4] DEBUG Login.UserAbleToLoginToZoodApp2 - debug log
+04-04-2025 12:49:45.0320 [main] INFO  com.zoodel.generic_android.ExtentReport_Android - Report path is ./src/main/resources/Suite Report/Suite Name Report.html
+04-04-2025 12:49:45.0407 [main] INFO  Login.LoginToZoodAppTest - Starting server
+04-04-2025 12:49:47.0945 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.12.1
+04-04-2025 12:49:47.0952 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+04-04-2025 12:49:47.0954 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+04-04-2025 12:49:47.0955 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+04-04-2025 12:49:47.0958 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+04-04-2025 12:49:47.0962 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+04-04-2025 12:49:49.0544 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.585s
+04-04-2025 12:49:49.0544 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+04-04-2025 12:50:00.0099 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+04-04-2025 12:50:00.0175 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+04-04-2025 12:50:06.0084 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+04-04-2025 12:50:06.0938 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+04-04-2025 12:50:08.0010 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+04-04-2025 12:50:09.0601 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+04-04-2025 12:50:13.0626 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+04-04-2025 12:50:15.0440 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+04-04-2025 12:50:15.0441 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+04-04-2025 12:50:35.0253 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+04-04-2025 12:50:35.0825 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+04-04-2025 12:50:35.0826 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+04-04-2025 12:50:51.0639 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account screen
+04-04-2025 12:50:54.0987 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account Setting screen
+04-04-2025 12:51:25.0614 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+04-04-2025 12:51:25.0616 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+04-04-2025 12:53:26.0463 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+04-04-2025 12:53:26.0464 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+04-04-2025 12:55:27.0468 [main] INFO  com.zoodel.generic_android.ExtentReport_Android - Report flushed successfully
+04-04-2025 12:56:15.0996 [main] INFO  Login.LoginToZoodAppTest - Starting server
+04-04-2025 12:56:18.0930 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.12.1
+04-04-2025 12:56:18.0935 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+04-04-2025 12:56:18.0937 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+04-04-2025 12:56:18.0938 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+04-04-2025 12:56:18.0940 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+04-04-2025 12:56:18.0943 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+04-04-2025 12:56:20.0808 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.866s
+04-04-2025 12:56:20.0808 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+04-04-2025 12:56:51.0748 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+04-04-2025 12:56:51.0814 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+04-04-2025 12:56:58.0033 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+04-04-2025 12:56:58.0899 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+04-04-2025 12:57:00.0456 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+04-04-2025 12:57:02.0006 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+04-04-2025 12:57:09.0466 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+04-04-2025 12:57:11.0774 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+04-04-2025 12:57:11.0774 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+04-04-2025 12:57:34.0202 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+04-04-2025 12:57:34.0239 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+04-04-2025 12:57:34.0240 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+04-04-2025 12:57:50.0480 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account screen
+04-04-2025 12:57:55.0179 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account Setting screen
+04-04-2025 01:00:43.0753 [main] INFO  Login.LoginToZoodAppTest - Starting server
+04-04-2025 01:00:46.0200 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.12.1
+04-04-2025 01:00:46.0203 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+04-04-2025 01:00:46.0204 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+04-04-2025 01:00:46.0205 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+04-04-2025 01:00:46.0205 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+04-04-2025 01:00:46.0208 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+04-04-2025 01:00:47.0697 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.490s
+04-04-2025 01:00:47.0697 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+04-04-2025 01:00:58.0324 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+04-04-2025 01:00:58.0402 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+04-04-2025 01:01:04.0339 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+04-04-2025 01:01:05.0259 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+04-04-2025 01:01:06.0251 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+04-04-2025 01:01:07.0795 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+04-04-2025 01:01:12.0149 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+04-04-2025 01:01:14.0644 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+04-04-2025 01:01:14.0645 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+04-04-2025 01:01:40.0566 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+04-04-2025 01:01:40.0599 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+04-04-2025 01:01:40.0599 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+04-04-2025 01:01:57.0133 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account screen
+04-04-2025 01:02:24.0994 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account Setting screen
+04-04-2025 01:02:24.0995 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+04-04-2025 01:02:55.0131 [main] INFO  Login.LoginToZoodAppTest - Element Not found, swipe started
+04-04-2025 01:02:55.0546 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+04-04-2025 01:02:56.0006 [main] INFO  Login.LoginToZoodAppTest - Element found
+04-04-2025 01:03:00.0323 [main] INFO  Login.LoginToZoodAppTest - Navigated to Home screen
+04-04-2025 01:05:04.0426 [main] INFO  Login.LoginToZoodAppTest - Starting server
+04-04-2025 01:05:07.0135 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.12.1
+04-04-2025 01:05:07.0139 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+04-04-2025 01:05:07.0140 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+04-04-2025 01:05:07.0142 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+04-04-2025 01:05:07.0142 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+04-04-2025 01:05:07.0145 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+04-04-2025 01:05:08.0707 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.565s
+04-04-2025 01:05:08.0709 [main] INFO  Login.LoginToZoodAppTest - Appium server started
