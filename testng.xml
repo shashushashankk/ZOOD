@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite Name">
-    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browser" value="chrome"/>
     <listeners>
-        <listener class-name="com.zoodel.generic_android.ExtentReport_Android"></listener>
+        <listener class-name="com.zoodel.generic_android.ExtentReport_Android"/>
+        <listener class-name="com.zoodel.generic_android.RetryListner"/>
     </listeners>
     <test thread-count="5" parallel="none" name="Test">
         <classes>
-            <!--      <class name="Login.UserAbleToLoginToZoodApp2"/>-->
-<!--            <class name="Login.UserAbleToLoginToZoodApp"/>-->
-<!--            <class name="Login.UserAbleToLoginToZoodApp3"/>-->
-            <class name="Login.AmazonDataDriven"/>
+            <class name="Login.LoginToZoodAppTest">
+                <!--                <methods>-->
+                <!--                    <include name="userAbleToLoginToZoodTest"/>-->
+                <!--                </methods>-->
+            </class>
         </classes>
-    </test> <!-- Test -->
-</suite> <!-- Suite -->
+    </test>
+</suite>
