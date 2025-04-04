@@ -1,14 +1,1 @@
-Login\UserAbleToLoginToZoodApp3.class
-Login\AmazonDataDriven.class
-Login\TestPgm.class
-Login\UserAbleToLoginToZoodApp2.class
-Login\JSON_CRUD_New.class
-Login\RemoteWebDriverTest.class
-Login\TestDirectoryPath.class
-Login\FlipkartSearch.class
-Login\UserAbleToLoginToZoodApp.class
-Login\AnagramProgramArray.class
-Login\SudokuSolver.class
-Login\ReportTest.class
-Login\MaximalRectangle.class
-Login\AnagramProgram.class
+Login\LoginToZoodAppTest.class
