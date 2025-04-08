@@ -3,7 +3,7 @@
 <suite name="Suite Name">
     <parameter name="browser" value="chrome"/>
     <listeners>
-        <listener class-name="com.zoodel.generic_android.ExtentReport_Android"/>
+        <listener class-name="com.zoodel.generic_android.Listners"/>
         <listener class-name="com.zoodel.generic_android.RetryListner"/>
     </listeners>
     <test thread-count="5" parallel="none" name="Test">
