@@ -124,7 +124,7 @@ public class StepGroup extends GlobalVariable {
         accountIcon.click();
         WebElement inputYourPhoneNumberText = baseScreen.loginScreen.getInputYourPhoneNumberText();
 //        inputYourPhoneNumberText.getDomAttribute()
-        String acttext = inputYourPhoneNumberText.getDomProperty("text");
+        String acttext = inputYourPhoneNumberText.getDomAttribute("text");
         String expectText = "Input your phone number";
         Assert.assertTrue(inputYourPhoneNumberText.isDisplayed());
         softAssert.assertEquals(acttext, expectText);

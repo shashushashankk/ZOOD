@@ -5,7 +5,19 @@
 	<groupId>Zood</groupId>
 	<artifactId>ZMAP</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<profiles>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>19</source>
+                    <target>19</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <profiles>
 		<profile>
 			<id>Staging</id>
 			<properties>
