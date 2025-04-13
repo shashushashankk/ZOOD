@@ -71,4 +71,6 @@ public class LoginScreen extends GlobalVariable {
 		return zoodUserAgreementLink;
 	}
 
+	
+
 }
