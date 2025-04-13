@@ -3,7 +3,6 @@ package com.zoodel.generic_android;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.time.Duration;
 
@@ -13,7 +12,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 
 //@Listeners(com.zoodel.generic_android.Listners.class)
 public class BaseClass extends GlobalVariable {

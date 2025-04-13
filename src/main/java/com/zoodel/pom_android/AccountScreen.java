@@ -18,7 +18,7 @@ public class AccountScreen extends GlobalVariable {
 			@FindBy(xpath = "//androidx.cardview.widget.CardView[@resource-id=\"com.zoodel.kz.uat:id/llAlert\"]//android.widget.TextView") })
 	WebElement accountStatusMessagetext;
 
-	@FindAll({ @FindBy(id = "com.zoodel.kz.uat:id/textview_customer_name") })
+	@FindBy(id = "com.zoodel.kz.uat:id/textview_customer_name")
 	WebElement customernameText;
 
 	@FindAll({

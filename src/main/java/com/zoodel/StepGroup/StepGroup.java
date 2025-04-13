@@ -10,12 +10,8 @@ import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.asserts.Assertion;
-import org.testng.asserts.SoftAssert;
 
 import java.net.MalformedURLException;
 import java.net.URI;

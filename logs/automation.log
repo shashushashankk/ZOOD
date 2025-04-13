@@ -232,3 +232,24 @@
 08-04-2025 11:08:47.0664 [main] INFO  Login.LoginToZoodAppTest - Element found
 08-04-2025 11:08:52.0331 [main] INFO  Login.LoginToZoodAppTest - Navigated to Home screen
 08-04-2025 11:08:54.0180 [main] INFO  Login.LoginToZoodAppTest - Successfully Logged out
+08-04-2025 11:41:27.0485 [main] INFO  Login.LoginToZoodAppTest - Server started
+08-04-2025 11:41:38.0859 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+08-04-2025 11:41:38.0948 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+08-04-2025 11:41:44.0714 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+08-04-2025 11:41:45.0595 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+08-04-2025 11:41:46.0735 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+08-04-2025 11:41:48.0451 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+08-04-2025 11:41:51.0898 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+08-04-2025 11:41:54.0023 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+08-04-2025 11:41:54.0025 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+08-04-2025 11:42:04.0580 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+08-04-2025 11:42:04.0635 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+08-04-2025 11:42:04.0636 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+08-04-2025 11:42:14.0741 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account screen
+08-04-2025 11:42:19.0808 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account Setting screen
+08-04-2025 11:42:19.0809 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:42:49.0956 [main] INFO  Login.LoginToZoodAppTest - Element Not found, swipe started
+08-04-2025 11:42:50.0369 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:42:50.0963 [main] INFO  Login.LoginToZoodAppTest - Element found
+08-04-2025 11:42:53.0544 [main] INFO  Login.LoginToZoodAppTest - Navigated to Home screen
+08-04-2025 11:42:55.0202 [main] INFO  Login.LoginToZoodAppTest - Successfully Logged out

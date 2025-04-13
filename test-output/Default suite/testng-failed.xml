@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.UserAbleToLoginToZoodApp">
+      <class name="Login.DataProviderTest">
         <methods>
-          <include name="closeZoodApp"/>
-          <include name="userAbleToLoginToZood"/>
-          <include name="loginToTheApplication"/>
-          <include name="openZoodAndroidApp"/>
-          <include name="logoutFromTheApplication"/>
+          <include name="flipKartLogin"/>
         </methods>
-      </class> <!-- Login.UserAbleToLoginToZoodApp -->
+      </class> <!-- Login.DataProviderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
