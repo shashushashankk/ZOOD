@@ -87,3 +87,169 @@
 04-04-2025 01:05:07.0145 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
 04-04-2025 01:05:08.0707 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.565s
 04-04-2025 01:05:08.0709 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+04-04-2025 02:31:26.0278 [main] INFO  com.zoodel.generic_android.ExtentReport_Android - Report path is ./src/main/resources/Suite Report/Suite Name Report.html
+04-04-2025 02:31:26.0377 [main] INFO  Login.LoginToZoodAppTest - Starting server
+04-04-2025 02:31:29.0180 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.12.1
+04-04-2025 02:31:29.0188 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+04-04-2025 02:31:29.0189 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+04-04-2025 02:31:29.0190 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+04-04-2025 02:31:29.0192 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+04-04-2025 02:31:29.0200 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+04-04-2025 02:31:30.0863 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.669s
+04-04-2025 02:31:30.0863 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+04-04-2025 02:31:36.0089 [main] INFO  com.zoodel.generic_android.ExtentReport_Android - Report flushed successfully
+06-04-2025 10:30:15.0537 [main] INFO  com.zoodel.generic_android.ExtentReport_Android - Report path is ./src/main/resources/Suite Report/Suite Name Report.html
+06-04-2025 10:30:15.0640 [main] INFO  Login.LoginToZoodAppTest - Starting server
+06-04-2025 10:30:18.0169 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.17.1
+06-04-2025 10:30:18.0172 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+06-04-2025 10:30:18.0173 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+06-04-2025 10:30:18.0174 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+06-04-2025 10:30:18.0177 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+06-04-2025 10:30:18.0180 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+06-04-2025 10:30:19.0630 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.452s
+06-04-2025 10:30:19.0631 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+06-04-2025 10:31:41.0923 [main] INFO  com.zoodel.generic_android.ExtentReport_Android - Report path is ./src/main/resources/Suite Report/Suite Name Report.html
+06-04-2025 10:31:42.0010 [main] INFO  Login.LoginToZoodAppTest - Starting server
+06-04-2025 10:31:44.0921 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.17.1
+06-04-2025 10:31:44.0925 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+06-04-2025 10:31:44.0927 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+06-04-2025 10:31:44.0928 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+06-04-2025 10:31:44.0929 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+06-04-2025 10:31:44.0932 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+06-04-2025 10:31:46.0867 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.937s
+06-04-2025 10:31:46.0868 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+06-04-2025 10:41:47.0664 [main] INFO  com.zoodel.generic_android.ExtentReport_Android - Report flushed successfully
+06-04-2025 10:49:17.0196 [main] INFO  Login.LoginToZoodAppTest - Starting server
+06-04-2025 10:49:20.0751 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.17.1
+06-04-2025 10:49:20.0756 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+06-04-2025 10:49:20.0757 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+06-04-2025 10:49:20.0758 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+06-04-2025 10:49:20.0760 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+06-04-2025 10:49:20.0764 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+06-04-2025 10:49:22.0777 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 2.014s
+06-04-2025 10:49:22.0778 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+06-04-2025 10:51:41.0071 [main] INFO  Login.LoginToZoodAppTest - Starting server
+06-04-2025 10:51:43.0888 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.17.1
+06-04-2025 10:51:43.0892 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+06-04-2025 10:51:43.0893 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+06-04-2025 10:51:43.0893 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+06-04-2025 10:51:43.0895 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+06-04-2025 10:51:43.0898 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+06-04-2025 10:51:45.0332 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.436s
+06-04-2025 10:51:45.0332 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+06-04-2025 10:52:03.0797 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+06-04-2025 10:52:03.0927 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+06-04-2025 10:52:15.0379 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+06-04-2025 10:52:16.0231 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+06-04-2025 10:52:17.0268 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+06-04-2025 10:52:18.0968 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+06-04-2025 10:52:28.0486 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+06-04-2025 10:52:29.0450 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+06-04-2025 10:52:29.0451 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+06-04-2025 10:54:00.0643 [main] INFO  Login.LoginToZoodAppTest - Starting server
+06-04-2025 10:54:03.0579 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Welcome to Appium v2.17.1
+06-04-2025 10:54:03.0583 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Non-default server args:
+06-04-2025 10:54:03.0584 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m { basePath: [32m'wd/hub'[39m }
+06-04-2025 10:54:03.0584 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\ER\.appium
+06-04-2025 10:54:03.0588 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+06-04-2025 10:54:03.0590 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m Requiring driver at C:\Users\ER\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+06-04-2025 10:54:05.0250 [main] INFO  Login.LoginToZoodAppTest - [38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.662s
+06-04-2025 10:54:05.0251 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+06-04-2025 10:54:17.0530 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+06-04-2025 10:54:17.0602 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+06-04-2025 10:54:23.0635 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+06-04-2025 10:54:24.0432 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+06-04-2025 10:54:25.0460 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+06-04-2025 10:54:27.0176 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+08-04-2025 10:03:24.0602 [main] INFO  Login.LoginToZoodAppTest - Starting server
+08-04-2025 10:03:24.0650 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+08-04-2025 10:05:38.0816 [main] INFO  Login.LoginToZoodAppTest - Starting server
+08-04-2025 10:05:38.0846 [main] INFO  Login.LoginToZoodAppTest - Appium server started
+08-04-2025 10:50:30.0760 [main] INFO  Login.LoginToZoodAppTest - Starting server
+08-04-2025 10:52:06.0865 [main] INFO  Login.LoginToZoodAppTest - Starting server
+08-04-2025 10:56:44.0746 [main] INFO  Login.LoginToZoodAppTest - Starting server
+08-04-2025 11:00:12.0449 [main] INFO  Login.LoginToZoodAppTest - Server started
+08-04-2025 11:01:23.0629 [main] INFO  Login.LoginToZoodAppTest - Server started
+08-04-2025 11:01:48.0255 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+08-04-2025 11:01:48.0364 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+08-04-2025 11:01:54.0077 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+08-04-2025 11:01:54.0957 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+08-04-2025 11:01:56.0237 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+08-04-2025 11:01:57.0986 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+08-04-2025 11:02:03.0491 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+08-04-2025 11:02:06.0873 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+08-04-2025 11:02:06.0874 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+08-04-2025 11:02:16.0064 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+08-04-2025 11:03:06.0544 [main] INFO  Login.LoginToZoodAppTest - Server started
+08-04-2025 11:03:19.0337 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+08-04-2025 11:03:19.0438 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+08-04-2025 11:03:25.0165 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+08-04-2025 11:03:26.0041 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+08-04-2025 11:03:27.0256 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+08-04-2025 11:03:28.0948 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+08-04-2025 11:03:33.0245 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+08-04-2025 11:03:34.0877 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+08-04-2025 11:03:34.0879 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+08-04-2025 11:03:45.0344 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+08-04-2025 11:03:45.0396 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+08-04-2025 11:03:45.0397 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+08-04-2025 11:03:54.0834 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account screen
+08-04-2025 11:03:59.0352 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account Setting screen
+08-04-2025 11:03:59.0352 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:04:29.0489 [main] INFO  Login.LoginToZoodAppTest - Element Not found, swipe started
+08-04-2025 11:04:29.0897 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:04:30.0493 [main] INFO  Login.LoginToZoodAppTest - Element found
+08-04-2025 11:04:32.0823 [main] INFO  Login.LoginToZoodAppTest - Navigated to Home screen
+08-04-2025 11:05:52.0105 [main] INFO  Login.LoginToZoodAppTest - Server started
+08-04-2025 11:06:05.0032 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+08-04-2025 11:06:05.0119 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+08-04-2025 11:06:10.0813 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+08-04-2025 11:06:11.0716 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+08-04-2025 11:06:12.0863 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+08-04-2025 11:06:14.0464 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+08-04-2025 11:06:18.0612 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+08-04-2025 11:06:19.0862 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+08-04-2025 11:06:19.0863 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+08-04-2025 11:06:30.0060 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+08-04-2025 11:07:12.0158 [main] INFO  Login.LoginToZoodAppTest - Server started
+08-04-2025 11:07:24.0993 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+08-04-2025 11:07:25.0081 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+08-04-2025 11:07:43.0932 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+08-04-2025 11:07:44.0800 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+08-04-2025 11:07:45.0924 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+08-04-2025 11:07:47.0538 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+08-04-2025 11:07:50.0673 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+08-04-2025 11:07:53.0109 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+08-04-2025 11:07:53.0110 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+08-04-2025 11:08:03.0441 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+08-04-2025 11:08:03.0483 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+08-04-2025 11:08:03.0484 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+08-04-2025 11:08:12.0233 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account screen
+08-04-2025 11:08:16.0567 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account Setting screen
+08-04-2025 11:08:16.0568 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:08:46.0689 [main] INFO  Login.LoginToZoodAppTest - Element Not found, swipe started
+08-04-2025 11:08:47.0103 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:08:47.0664 [main] INFO  Login.LoginToZoodAppTest - Element found
+08-04-2025 11:08:52.0331 [main] INFO  Login.LoginToZoodAppTest - Navigated to Home screen
+08-04-2025 11:08:54.0180 [main] INFO  Login.LoginToZoodAppTest - Successfully Logged out
+08-04-2025 11:41:27.0485 [main] INFO  Login.LoginToZoodAppTest - Server started
+08-04-2025 11:41:38.0859 [main] INFO  Login.LoginToZoodAppTest - Android driver launched successfully
+08-04-2025 11:41:38.0948 [main] INFO  Login.LoginToZoodAppTest - Application launched successfully
+08-04-2025 11:41:44.0714 [main] INFO  Login.LoginToZoodAppTest - Navigated to Country screen
+08-04-2025 11:41:45.0595 [main] INFO  Login.LoginToZoodAppTest - Clicked on Continue button
+08-04-2025 11:41:46.0735 [main] INFO  Login.LoginToZoodAppTest - Language selected and navigated to Educational screen
+08-04-2025 11:41:48.0451 [main] INFO  Login.LoginToZoodAppTest - Navigated to home screen
+08-04-2025 11:41:51.0898 [main] INFO  Login.LoginToZoodAppTest - Closed the App Launch Banner
+08-04-2025 11:41:54.0023 [main] INFO  Login.LoginToZoodAppTest - Navigated to account screen
+08-04-2025 11:41:54.0025 [main] INFO  Login.LoginToZoodAppTest - Navigated to Login screen
+08-04-2025 11:42:04.0580 [main] INFO  Login.LoginToZoodAppTest - Logged in successfully
+08-04-2025 11:42:04.0635 [main] INFO  Login.LoginToZoodAppTest - Start to execute 2nd test cases
+08-04-2025 11:42:04.0636 [main] INFO  Login.LoginToZoodAppTest - Logout function start to executed
+08-04-2025 11:42:14.0741 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account screen
+08-04-2025 11:42:19.0808 [main] INFO  Login.LoginToZoodAppTest - Navigated to Account Setting screen
+08-04-2025 11:42:19.0809 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:42:49.0956 [main] INFO  Login.LoginToZoodAppTest - Element Not found, swipe started
+08-04-2025 11:42:50.0369 [main] INFO  Login.LoginToZoodAppTest - Searching for element
+08-04-2025 11:42:50.0963 [main] INFO  Login.LoginToZoodAppTest - Element found
+08-04-2025 11:42:53.0544 [main] INFO  Login.LoginToZoodAppTest - Navigated to Home screen
+08-04-2025 11:42:55.0202 [main] INFO  Login.LoginToZoodAppTest - Successfully Logged out

@@ -10,62 +10,76 @@ import com.zoodel.generic_android.GlobalVariable;
 import io.appium.java_client.android.AndroidDriver;
 
 public class ZMHomeScreen extends GlobalVariable {
-	public ZMHomeScreen(AndroidDriver driver) {
-		PageFactory.initElements(driver, this);
-	}
+    public ZMHomeScreen(AndroidDriver driver) {
+        PageFactory.initElements(driver, this);
+    }
 
-	@FindAll({ @FindBy(id = "//android.widget.TextView[contains(@resource-id,'id/imageview_flashy_banner'") })
-	WebElement appLaunchBanner;
+    @FindAll({@FindBy(id = "//android.widget.TextView[contains(@resource-id,'id/imageview_flashy_banner'")})
+    WebElement appLaunchBanner;
 
-	@FindAll({
-			@FindBy(xpath = "//android.widget.ImageView[ends-with(@resource-id,'id/imageview_flashy_banner')]/following-sibling::android.widget.ImageView") })
-	WebElement appLaunchBannerCloseIcon;
-	@FindAll({ @FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Home\"]"),
-			@FindBy(id = "com.zoodel.kz.uat:id/navigation_home") })
-	WebElement homeIcon;
+    @FindAll({
+            @FindBy(xpath = "//android.widget.ImageView[ends-with(@resource-id,'id/imageview_flashy_banner')]/following-sibling::android.widget.ImageView")})
+    WebElement appLaunchBannerCloseIcon;
+    @FindAll({@FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Home\"]"),
+            @FindBy(id = "com.zoodel.kz.uat:id/navigation_home")})
+    WebElement homeIcon;
 
-	@FindAll({ @FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Categories\"]"),
-			@FindBy(id = "com.zoodel.kz.uat:id/navigation_catalogue") })
-	WebElement categoriesIcon;
+    @FindAll({@FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Categories\"]"),
+            @FindBy(id = "com.zoodel.kz.uat:id/navigation_catalogue")})
+    WebElement categoriesIcon;
 
-	@FindAll({ @FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"ZOOD Pay\"]"),
-			@FindBy(id = "com.zoodel.kz.uat:id/navigation_zoodpay") })
-	WebElement zoodPayIcon;
+    @FindAll({@FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"ZOOD Pay\"]"),
+            @FindBy(id = "com.zoodel.kz.uat:id/navigation_zoodpay")})
+    WebElement zoodPayIcon;
 
-	@FindAll({ @FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Cart\"]"),
-			@FindBy(id = "com.zoodel.kz.uat:id/navigation_cart") })
-	WebElement cartIcon;
+    @FindAll({@FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Cart\"]"),
+            @FindBy(id = "com.zoodel.kz.uat:id/navigation_cart")})
+    WebElement cartIcon;
 
-	@FindAll({ @FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Account\"]"),
+    @FindAll({@FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Account\"]"),
+            @FindBy(id = "com.zoodel.kz.uat:id/navigation_account")})
+    WebElement accounticon;
+
+    @FindAll({@FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'id/textview_search')]")})
+    WebElement searchtextfield;
+
+/*@FindAll({ @FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Account\"]"),
 			@FindBy(id = "com.zoodel.kz.uat:id/navigation_account") })
-	WebElement accounticon;
+	WebElement accounticon;*/
 
-	public WebElement getAppLaunchBanner() {
-		return appLaunchBanner;
-	}
+    public WebElement getSearchtextfield() {
+        return searchtextfield;
+    }
 
-	public WebElement getAppLaunchBannerCloseIcon() {
-		return appLaunchBannerCloseIcon;
-	}
+    public WebElement getAccounticon() {
+        return accounticon;
+    }
+    public WebElement getAppLaunchBanner() {
+        return appLaunchBanner;
+    }
 
-	public WebElement getHomeIcon() {
-		return homeIcon;
-	}
+    public WebElement getAppLaunchBannerCloseIcon() {
+        return appLaunchBannerCloseIcon;
+    }
 
-	public WebElement getCategoriesIcon() {
-		return categoriesIcon;
-	}
+    public WebElement getHomeIcon() {
+        return homeIcon;
+    }
 
-	public WebElement getZoodPayIcon() {
-		return zoodPayIcon;
-	}
+    public WebElement getCategoriesIcon() {
+        return categoriesIcon;
+    }
 
-	public WebElement getCartIcon() {
-		return cartIcon;
-	}
+    public WebElement getZoodPayIcon() {
+        return zoodPayIcon;
+    }
 
-	public WebElement getAccountIcon() {
-		return accounticon;
-	}
+    public WebElement getCartIcon() {
+        return cartIcon;
+    }
+
+    public WebElement getAccountIcon() {
+        return accounticon;
+    }
 
 }

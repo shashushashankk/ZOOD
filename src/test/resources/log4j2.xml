@@ -8,7 +8,8 @@
         <Console name="CONSOLE">
             <PatternLayout pattern="%d{dd-MM-yyyy hh:mm:ss.SSSS} [%t] %-5level %logger{36} - %m%n"/>
         </Console>
-        <File  name="File" fileName="${basePath}/automation.log">
+<!--        <File  name="File" fileName="${basePath}/automation.log">-->
+        <File  name="File" fileName="${basePath}/Shashank.log">
             <PatternLayout pattern="%d{dd-MM-yyyy hh:mm:ss.SSSS} [%t] %-5level %logger{36} - %m%n"/>
             <SizeBasedTriggeringPolicy size="5000"/>
         </File >

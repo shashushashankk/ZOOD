@@ -3,8 +3,8 @@ package com.zoodel.generic_android;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URISyntaxException;
+import java.time.Duration;
 
 import com.zoodel.StepGroup.StepGroup;
 import org.apache.logging.log4j.LogManager;
@@ -12,29 +12,31 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 
 //@Listeners(com.zoodel.generic_android.Listners.class)
 public class BaseClass extends GlobalVariable {
 	@BeforeClass
-	public void openZoodAndroidApp() throws MalformedURLException, URISyntaxException {
+	public void openZoodAndroidApp() throws Exception, URISyntaxException {
 		log = LogManager.getLogger(this.getClass());
-		log.info("Starting server",true);
-		ProcessBuilder processBuilder = new ProcessBuilder("cmd.exe", "/c", "appium -a 0.0.0.0 -p 4723 --base-path wd/hub");
 		try {
-			Process process = processBuilder.start();
-			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-			String result=null;
-			while ((result=bufferedReader.readLine())!=null){
-				log.info(result,true);
-				if(result.contains("AndroidUiautomator2Driver has been successfully")){
+			ProcessBuilder pb = new ProcessBuilder("cmd", "/c", "appium -a 0.0.0.0 -p 4723 --base-path wd/hub");
+			pb.redirectErrorStream(true);
+			Process process=pb.start();
+			BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+			String line= null;
+			while ((line=reader.readLine())!=null){
+				System.out.println(line);
+				if(line.contains("Appium REST http interface listener started on")){
 					break;
 				}
 			}
-			log.info("Appium server started", true);
+
+			System.out.println("Appium server started...");
 		} catch (IOException e) {
-			log.info("Failed to start Appium server " + e.getLocalizedMessage(), true);
+			e.printStackTrace();
 		}
+		Thread.sleep(Duration.ofSeconds(10));
+		log.info("Server started",true);
 		StepGroup.openZoodApp(noReset);
 		StepGroup.loginToZoodApp();
 	}
