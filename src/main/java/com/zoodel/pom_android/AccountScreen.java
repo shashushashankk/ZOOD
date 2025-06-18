@@ -25,6 +25,8 @@ public class AccountScreen extends GlobalVariable {
 			@FindBy(xpath = "//android.widget.ImageView[contains(@resource-id,'id/imgSetting')]"),
 			@FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'textview_customer_name')]/following-sibling::android.widget.ImageView") })
 	WebElement settingIcon;
+	@FindBy(xpath = "//android.widget.ImageView[@resource-id=\"com.zoodel.kz.uat:id/imgLoyaltyType\"]/..")
+	WebElement loyaltyIcon;
 
 	public WebElement getAccountStatusMessagetext() {
 		return accountStatusMessagetext;
