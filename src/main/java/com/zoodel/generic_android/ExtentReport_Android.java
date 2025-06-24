@@ -60,9 +60,9 @@ public class ExtentReport_Android extends GlobalVariable implements ITestListene
         ITestListener.super.onTestSkipped(result);
         extentTest.log(Status.PASS, result.getName() + " execution skipped");
         System.out.println("driver is " + androidDriver);
-        String filePath = baseUtility.driverMethods.getBrowserScreenshot(result.getName(), androidDriver);
+//        String filePath = baseUtility.driverMethods.getBrowserScreenshot(result.getName(), androidDriver);
 //        extentTest.log(Status.PASS,"");
-        extentTest.addScreenCaptureFromPath(filePath);
+//        extentTest.addScreenCaptureFromPath(filePath);
     }
 
     @Override
@@ -70,9 +70,9 @@ public class ExtentReport_Android extends GlobalVariable implements ITestListene
         ITestListener.super.onTestFailure(result);
         extentTest.log(Status.PASS, result.getName() + " failed to executed");
         System.out.println("driver is " + androidDriver);
-        String filePath = baseUtility.driverMethods.getBrowserScreenshot(result.getName(), androidDriver);
+//        String filePath = baseUtility.driverMethods.getBrowserScreenshot(result.getName(), androidDriver);
         extentTest.log(Status.FAIL, "");
-        extentTest.addScreenCaptureFromPath(filePath);
+//        extentTest.addScreenCaptureFromPath(filePath);
     }
 
     @Override
@@ -80,9 +80,9 @@ public class ExtentReport_Android extends GlobalVariable implements ITestListene
         ITestListener.super.onTestSuccess(result);
         extentTest.log(Status.PASS, result.getName() + " successfully executed");
         System.out.println("driver is " + androidDriver);
-        String filePath = baseUtility.driverMethods.getBrowserScreenshot(result.getName(), androidDriver);
+//        String filePath = baseUtility.driverMethods.getBrowserScreenshot(result.getName(), androidDriver);
         extentTest.log(Status.PASS, "");
-        extentTest.addScreenCaptureFromPath(filePath);
+//        extentTest.addScreenCaptureFromPath(filePath);
     }
 
     @Override

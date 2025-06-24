@@ -1,6 +1,6 @@
 package Login;
 
-import com.zoodel.StepGroup.StepGroup;
+//import com.zoodel.StepGroup.StepGroup;
 import com.zoodel.generic_android.BaseClass;
 import com.zoodel.pom_android.LoginScreen;
 import com.zoodel.pom_android.ZMHomeScreen;
@@ -22,7 +22,7 @@ public class LoginToZoodAppTest extends BaseClass {
     @Test (priority = -5, alwaysRun = true, enabled = false,successPercentage = 10)
     public void userAbleToLoginToZoodTest2() {
         log.info("Start to execute 2nd test cases", true);
-        StepGroup.logout();
+//        StepGroup.logout();
     }
 
 //    @ BeforeClass - org.testng.annotation

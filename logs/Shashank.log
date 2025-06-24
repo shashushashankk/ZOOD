@@ -1,1 +1,9 @@
 10-04-2025 12:26:50.0874 [main] INFO  Login.LoginToZoodAppTest - Server started
+22-06-2025 12:39:51.0589 [main] DEBUG Login.LogsTest - Debug log
+22-06-2025 12:39:51.0592 [main] INFO  Login.LogsTest - info log
+22-06-2025 12:39:51.0592 [main] FATAL Login.LogsTest - fatal log
+22-06-2025 12:39:51.0592 [main] ERROR Login.LogsTest - error log
+22-06-2025 12:50:34.0261 [main] DEBUG Login.LogsTest - Debug log
+22-06-2025 12:50:34.0264 [main] INFO  Login.LogsTest - info log
+22-06-2025 12:50:34.0264 [main] FATAL Login.LogsTest - fatal log
+22-06-2025 12:50:34.0265 [main] ERROR Login.LogsTest - error log
