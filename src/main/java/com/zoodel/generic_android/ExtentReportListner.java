@@ -35,7 +35,8 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
     public void onStart(ITestContext context) {
         log = LogManager.getLogger(this.getClass());
         ITestListener.super.onStart(context);
-        String reportName = "Automation Test Report " + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM-yyyy hhmmss") + ".html";
+//        String reportName = "Automation Test Report " + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM-yyyy hhmmss") + ".html";
+        String reportName="";
 //        log.info("Report path is " + reportName,true);
         extentSparkReporter = new ExtentSparkReporter("./logs/" + reportName);
         extentSparkReporter.config().setDocumentTitle("Automation Document Title");
@@ -70,7 +71,8 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
         extentTest.log(Status.SKIP, result.getName() + " is skipped");
         TakesScreenshot sc = (TakesScreenshot) androidDriver;
         File temp = sc.getScreenshotAs(OutputType.FILE);
-        File dest = new File("C:\\Users\\ER\\eclipse-workspace\\ZOOD\\logs\\" + "Skip " + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM-yyyy hh-mm-ss") + ".jpg");
+//        File dest = new File("C:\\Users\\ER\\eclipse-workspace\\ZOOD\\logs\\" + "Skip " + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM-yyyy hh-mm-ss") + ".jpg");
+        File dest= null;
         try {
             FileUtils.copyFile(temp, dest);
         } catch (IOException e) {
@@ -89,7 +91,9 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
 
         TakesScreenshot sc = (TakesScreenshot) androidDriver;
         File temp = sc.getScreenshotAs(OutputType.FILE);
-        File dest = new File("./logs/" + "Succ_" + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM_hh-mm-ss") + ".jpg");
+//        File dest = new File("./logs/" + "Succ_" + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM_hh-mm-ss") + ".jpg");
+//        File dest = new File("./logs/" + "Succ_" + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM_hh-mm-ss") + ".jpg");
+        File dest = null;
         try {
             FileUtils.copyFile(temp, dest);
         } catch (IOException e) {
@@ -110,7 +114,8 @@ public class ExtentReportListner extends GlobalVariable implements ITestListener
         TakesScreenshot sc = (TakesScreenshot) androidDriver;
         System.out.println("Took Screenshot");
         File temp = sc.getScreenshotAs(OutputType.FILE);
-        File dest = new File("./logs/" + "Succ_" + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM_hh-mm-ss") + ".jpg");
+//        File dest = new File("./logs/" + "Succ_" + baseUtility.dateAndTime.getCurrentDateAndTime("dd-MM_hh-mm-ss") + ".jpg");
+        File dest=null;
         System.out.println("dest file created");
         try {
             FileUtils.copyFile(temp, dest);
